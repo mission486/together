@@ -3043,7 +3043,7 @@
           <div class="card-step-badge">1단계</div>
           <div class="icon">⚖️</div>
           <h3>활동 1 · 환경 딜레마</h3>
-          <p>전농로 벚꽃거리와 곶자왈 숲!<br>2가지 딜레마 사례에서 나의 선택을 알아봐요</p>
+          <p>전농로 벚꽃거리와 곶자왈 숲!<br>2가지 딜레마 가상 사례에서 나의 선택을 알아봐요</p>
           <div class="card-action-hint">바로 참여하기 →</div>
         </div>
         <div class="intro-card card-vote" onclick="goSection('vote')">
@@ -3229,7 +3229,7 @@
     <div class="section-title">
       <span class="emoji">⚖️</span>
       <h2>활동 1 · 환경 딜레마, 여러분의 선택은?</h2>
-      <p>제주의 환경 딜레마 2가지 사례를 살펴보고, 내가 중요하게 생각하는 가치를 알아봐요!</p>
+      <p>제주의 환경 딜레마 2가지 가상 사례를 살펴보고, 내가 중요하게 생각하는 가치를 알아봐요!</p>
     </div>
 
     <div class="dilemma-container">
@@ -3248,11 +3248,11 @@
         </div>
       </div>
 
-      <!-- 딜레마 질문 카드 (사례 2선) -->
+      <!-- 딜레마 질문 카드 (가상 사례 2선) -->
       <div class="dilemma-card" id="dilemmaQuestionBox">
         <div class="dilemma-meta" style="display:flex; justify-content:space-between; align-items:center; flex-wrap:wrap; gap:8px;">
           <div>
-            <span class="dilemma-badge" id="dilemmaQNum">사례 1</span>
+            <span class="dilemma-badge" id="dilemmaQNum">가상 사례 1</span>
             <span class="dilemma-tag" id="dilemmaQTag">#제주전농로 #도로확장vs나무보호</span>
           </div>
           <span id="dilemmaQFlow" style="font-size:0.8rem; font-weight:700; color:var(--cherry-deep); background:#FFF0F5; padding:4px 12px; border-radius:999px;">
@@ -3261,7 +3261,7 @@
         </div>
 
         <h3 class="dilemma-title" id="dilemmaQTitle">
-          <span id="dilemmaQIcon">🌸</span> <span id="dilemmaQTitleText">1. 전농로 벚꽃거리 도로 확장과 나무 보호</span>
+          <span id="dilemmaQIcon">🌸</span> <span id="dilemmaQTitleText">가상 사례 1. 전농로 벚꽃거리 도로 확장과 나무 보호</span>
         </h3>
 
         <div class="dilemma-situation" id="dilemmaQSituation">
@@ -3292,13 +3292,13 @@
 
         <div class="dilemma-nav-controls">
           <button class="dilemma-prev-btn" id="dilemmaPrevBtn" onclick="prevDilemma()" style="visibility: hidden;">
-            ← 이전 사례
+            ← 이전 가상 사례
           </button>
           <span style="font-size: 0.82rem; color: var(--text-gray);" id="dilemmaCurrentChoiceHint">
-            두 입장 중 하나를 선택한 뒤 다음 사례로 이동하세요
+            두 입장 중 하나를 선택한 뒤 다음 가상 사례로 이동하세요
           </span>
           <button class="dilemma-next-btn" id="dilemmaNextBtn" onclick="nextDilemmaStep()">
-            다음 사례로 이동 ➡️
+            다음 가상 사례로 이동 ➡️
           </button>
         </div>
       </div>
@@ -3309,16 +3309,16 @@
           <div class="dilemma-result-badge">🧭 환경 딜레마와 나의 가치 탐색 완료</div>
           <h2 class="dilemma-result-title" style="font-size: 1.5rem;">내가 선택한 2가지 환경 딜레마 입장</h2>
           <p class="dilemma-result-desc" style="margin-bottom: 20px; font-size: 0.93rem;">
-            2가지 환경 딜레마 사례에서 내가 선택한 입장을 확인해 보세요!
+            2가지 환경 딜레마 가상 사례에서 내가 선택한 입장을 확인해 보세요!
           </p>
 
           <div class="dilemma-answers-list show" id="dilemmaAnswersList" style="margin-bottom: 20px;">
-            <!-- 2가지 사례 선택 요약 -->
+            <!-- 2가지 가상 사례 선택 요약 -->
           </div>
 
           <div class="dilemma-action-buttons" style="margin-top: 10px;">
             <button class="dilemma-action-btn btn-restart" onclick="restartDilemma()">
-              🔄 사례 다시 선택하기
+              🔄 가상 사례 다시 선택하기
             </button>
             <button class="dilemma-action-btn btn-next-step" onclick="goSection('vote')">
               ➡️ 활동 2 · 사람과 자연은 어떻게 공존했을까? 바로가기 🤝
@@ -3331,7 +3331,7 @@
       <div class="dilemma-class-stats card">
         <h3>📊 우리 반은 어떤 선택을 했을까요?</h3>
 
-        <!-- 실시간 집계 및 사례별 필터 바 -->
+        <!-- 실시간 집계 및 가상 사례별 필터 바 -->
         <div class="dilemma-sim-bar">
           <div style="display:flex; align-items:center; gap:8px; flex-wrap:wrap;">
             <span class="sim-step-btn" style="background:#E8F5E9; border-color:#4CAF50; color:#2E7D32; cursor:default;">
@@ -3339,13 +3339,13 @@
             </span>
           </div>
 
-          <!-- 사례별 필터 -->
+          <!-- 가상 사례별 필터 -->
           <div style="display:flex; align-items:center; gap:6px; flex-wrap:wrap;">
-            <span style="font-size:0.8rem; color:#666; font-weight:700;">사례 선택:</span>
+            <span style="font-size:0.8rem; color:#666; font-weight:700;">가상 사례 선택:</span>
             <select id="dilemmaCaseFilter" onchange="onChangeDilemmaCaseFilter(this.value)" style="padding:5px 10px; border-radius:8px; border:1.5px solid #CCC; font-family:'Noto Sans KR',sans-serif; font-size:0.83rem; font-weight:700;">
-              <option value="1">① 전농로 벚꽃거리 도로 확장과 나무 보호</option>
-              <option value="2">② 곶자왈 관광단지 개발과 숲 보전</option>
-              <option value="all">전체 사례 평균</option>
+              <option value="1">① 가상 사례 1 · 전농로 벚꽃거리 도로 확장과 나무 보호</option>
+              <option value="2">② 가상 사례 2 · 곶자왈 관광단지 개발과 숲 보전</option>
+              <option value="all">전체 가상 사례 평균</option>
             </select>
           </div>
         </div>
@@ -3511,7 +3511,6 @@
             <option value="3모둠">3모둠</option>
             <option value="4모둠">4모둠</option>
             <option value="5모둠">5모둠</option>
-            <option value="6모둠">6모둠</option>
           </select>
         </div>
       </div>
@@ -3656,7 +3655,6 @@
           <option value="3모둠">3모둠</option>
           <option value="4모둠">4모둠</option>
           <option value="5모둠">5모둠</option>
-          <option value="6모둠">6모둠</option>
         </select>
 
         <div class="color-picker">
@@ -3684,7 +3682,6 @@
         <button onclick="filterGroup('3모둠', this)">3모둠</button>
         <button onclick="filterGroup('4모둠', this)">4모둠</button>
         <button onclick="filterGroup('5모둠', this)">5모둠</button>
-        <button onclick="filterGroup('6모둠', this)">6모둠</button>
       </div>
 
       <div class="postit-wall" id="postitWall">
@@ -4927,11 +4924,11 @@
       const prevBtn = document.getElementById('dilemmaPrevBtn');
       const nextBtn = document.getElementById('dilemmaNextBtn');
 
-      if (qNum) qNum.textContent = `사례 ${idx + 1}`;
+      if (qNum) qNum.textContent = `가상 사례 ${idx + 1}`;
       if (qTag) qTag.textContent = q.tag;
       if (qFlow) qFlow.textContent = q.flow || '';
       if (qIcon) qIcon.textContent = q.icon;
-      if (qTitleText) qTitleText.textContent = `${idx + 1}. ${q.title}`;
+      if (qTitleText) qTitleText.textContent = `가상 사례 ${idx + 1}. ${q.title}`;
       if (qSit) qSit.textContent = q.situation;
 
       if (devIcon) devIcon.textContent = q.optA.icon;
@@ -4946,7 +4943,7 @@
         prevBtn.style.visibility = idx > 0 ? 'visible' : 'hidden';
       }
       if (nextBtn) {
-        nextBtn.textContent = idx < totalSteps - 1 ? '다음 사례로 이동 ➡️' : '선택 완료 · 결과 보기 ➡️';
+        nextBtn.textContent = idx < totalSteps - 1 ? '다음 가상 사례로 이동 ➡️' : '선택 완료 · 결과 보기 ➡️';
       }
 
       // 기존 선택 표시
@@ -5018,7 +5015,7 @@
           const choiceIcon = isEco ? q.optB.icon : q.optA.icon;
           return `
         <div class="dilemma-answer-item ${isEco ? 'eco' : 'dev'}">
-          <div class="dilemma-answer-title">${q.icon} 사례 ${i + 1}. ${escapeHtml(q.title)}</div>
+          <div class="dilemma-answer-title">${q.icon} 가상 사례 ${i + 1}. ${escapeHtml(q.title)}</div>
           <div class="dilemma-answer-choice ${isEco ? 'eco' : 'dev'}">
             ${choiceIcon} ${escapeHtml(choiceText)}
           </div>
@@ -6206,7 +6203,7 @@
       const totalDilemma = Object.keys(data.dilemmaClassMap || {}).length;
       const caseStats = {};
       coreDilemmaList.forEach(q => {
-        caseStats[q.id] = { title: `사례 ${q.id}. ${q.title}`, eco: 0, dev: 0 };
+        caseStats[q.id] = { title: `가상 사례 ${q.id}. ${q.title}`, eco: 0, dev: 0 };
       });
       Object.values(data.dilemmaClassMap || {}).forEach(ans => {
         if (!ans || !ans.answers) return;
@@ -6298,11 +6295,11 @@
   </div>
 
   <div class="section-box">
-    <h2>1. 활동 1 · 환경 딜레마 2가지 사례 선택 결과</h2>
+    <h2>1. 활동 1 · 환경 딜레마 2가지 가상 사례 선택 결과</h2>
     <p>총 <strong>${totalDilemma}명</strong> 참여 (전농로 벚꽃거리 도로 확장과 나무 보호 / 곶자왈 관광단지 개발과 숲 보전)</p>
     <table>
       <thead>
-        <tr><th>환경 딜레마 사례</th><th>🌿 자연 보호·숲 보전 선택</th><th>🏙️ 인간의 편리함·개발 선택</th></tr>
+        <tr><th>환경 딜레마 가상 사례</th><th>🌿 자연 보호·숲 보전 선택</th><th>🏙️ 인간의 편리함·개발 선택</th></tr>
       </thead>
       <tbody>
         ${coreDilemmaList.map(q => {
